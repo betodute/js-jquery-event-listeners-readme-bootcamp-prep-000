@@ -12,7 +12,9 @@
   
   function pressIt(){
     $("input").on("keydown", function(g){
-      if(g.which === 71)
+      if(g.which === 71){
+        window.alert("Hey homie you pressed G");
+      }
     });
   }
 
