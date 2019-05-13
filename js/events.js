@@ -12,7 +12,7 @@
   
   function pressIt(){
     $("input").on("keydown", function(g){
-      
+      if(g.which === 71)
     });
   }
 
